@@ -17,7 +17,7 @@ java golomb
 For running the Decoder:
 
 program file: "golomb_decoder.java"
-1. The program uses "golomb_compressed.txt" as the input file. Put the text that has to be compressed here.
+1. The program uses "golomb_compressed.txt" as the input file. This is the same as the compressed file generated in previous step.
 
 2. The program produces "golomb_decoded.txt" as output file which is the decompressed version of the compressed file. The contents of this file should be the same as "golomb_input.txt".
 

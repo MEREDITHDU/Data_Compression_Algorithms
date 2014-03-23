@@ -17,7 +17,7 @@ java lzss
 For running the Decoder:
 
 program file: "lzss_decoder.java"
-1. The program uses "final_output_lzss.txt" as the input file. Put the text that has to be compressed here.
+1. The program uses "final_output_lzss.txt" as the input file. This is the same as the compressed file generated in previous step.
 
 2. The program produces "lzss_decompressed.txt" as output file which is the decompressed version of the compressed file. The contents of this file should be the same as "lzss_input.txt".
 
@@ -26,7 +26,7 @@ To run the code type the following commands in the windows command prompt in the
 javac lzss_decoder.java
 java lzss_decoder
 
-
+Interim files (can be deleted safely) : "output_lzss.txt"
 
 
 -----end------
